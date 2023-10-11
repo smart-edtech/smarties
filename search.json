@@ -1,10 +1,17 @@
 [
   {
-    "objectID": "M2/index.html",
-    "href": "M2/index.html",
-    "title": "M2 page",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "@SmartEdTech",
     "section": "",
-    "text": "This page presents you M2 smarties."
+    "text": "Building the education of the XXI century by addressing public, social and economic issues."
+  },
+  {
+    "objectID": "index.html#welcome-to-the-smartedtech-git-community",
+    "href": "index.html#welcome-to-the-smartedtech-git-community",
+    "title": "@SmartEdTech",
+    "section": "Welcome to the @SmartEdtech git community",
+    "text": "Welcome to the @SmartEdtech git community\nThe msc SmartEdtech master is a international master hosted by the Université Côte d’Azur in Nice France with an incredible community of hundred of students from all other the world."
   },
   {
     "objectID": "M1/index.html",
@@ -12,20 +19,6 @@
     "title": "M1 page",
     "section": "",
     "text": "This page presents you M1 smarties."
-  },
-  {
-    "objectID": "usage/index.html",
-    "href": "usage/index.html",
-    "title": "Discover quarto",
-    "section": "",
-    "text": "Quarto is based on pandoc «a universal document converter» that convert between multiple formats including.\n\nmarkdown\nhtml\ndocx\nodt\npptx\npdf via latex\nand many others.\n\nThe traditionnal workflow is to use markdown source and convert it to wathever document format you want.\nAdvantages of markdown includes\n\neasy to read\neasy to write\ndescriptive and extensible to fit your use-cases."
-  },
-  {
-    "objectID": "usage/markdown-revealjs.html#this-header",
-    "href": "usage/markdown-revealjs.html#this-header",
-    "title": "Markdown basics",
-    "section": "This header",
-    "text": "This header\n\nquote\n\nHeay"
   },
   {
     "objectID": "usage/markdown.html",
@@ -42,17 +35,24 @@
     "text": "quote"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "@SmartEdTech",
-    "section": "",
-    "text": "Building the education of the XXI century by addressing public, social and economic issues."
+    "objectID": "usage/markdown-revealjs.html#this-header",
+    "href": "usage/markdown-revealjs.html#this-header",
+    "title": "Markdown basics",
+    "section": "This header",
+    "text": "This header\n\nquote\n\nHeay"
   },
   {
-    "objectID": "index.html#welcome-to-the-smartedtech-git-community",
-    "href": "index.html#welcome-to-the-smartedtech-git-community",
-    "title": "@SmartEdTech",
-    "section": "Welcome to the @SmartEdtech git community",
-    "text": "Welcome to the @SmartEdtech git community\nThe msc SmartEdtech master is a international master hosted by the Université Côte d’Azur in Nice France with an incredible community of hundred of students from all other the world."
+    "objectID": "usage/index.html",
+    "href": "usage/index.html",
+    "title": "Discover quarto",
+    "section": "",
+    "text": "Quarto is based on pandoc «a universal document converter» that convert between multiple formats including.\n\nmarkdown\nhtml\ndocx\nodt\npptx\npdf via latex\nand many others.\n\nThe traditionnal workflow is to use markdown source and convert it to wathever document format you want.\nAdvantages of markdown includes\n\neasy to read\neasy to write\ndescriptive and extensible to fit your use-cases."
+  },
+  {
+    "objectID": "M2/index.html",
+    "href": "M2/index.html",
+    "title": "M2 page",
+    "section": "",
+    "text": "This page presents you M2 smarties."
   }
 ]

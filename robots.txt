@@ -1,1 +1,1 @@
-Sitemap: https://www.lyceum.fr/sitemap.xml
+Sitemap: https://github.com/smart-edtech/smarties/sitemap.xml
