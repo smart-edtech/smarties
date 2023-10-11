@@ -25,21 +25,21 @@
     "href": "usage/markdown.html",
     "title": "Markdown basics",
     "section": "",
-    "text": "quote"
+    "text": "Markdown is just a plain text format that is designed to be easy to write, and, even more importantly, easy to read.\nFor example:\nWill be rendered like this."
   },
   {
-    "objectID": "usage/markdown.html#this-header",
-    "href": "usage/markdown.html#this-header",
+    "objectID": "usage/markdown.html#hello-world",
+    "href": "usage/markdown.html#hello-world",
     "title": "Markdown basics",
-    "section": "",
-    "text": "quote"
+    "section": "Hello world",
+    "text": "Hello world\n\nThe world is nice.\n\nAnd this is important to note.\nThe quarto documentation provide a detailed documentation here.\nhttps://quarto.org/docs/authoring/markdown-basics.html"
   },
   {
-    "objectID": "usage/markdown-revealjs.html#this-header",
-    "href": "usage/markdown-revealjs.html#this-header",
+    "objectID": "usage/markdown-revealjs.html#hello-world",
+    "href": "usage/markdown-revealjs.html#hello-world",
     "title": "Markdown basics",
-    "section": "This header",
-    "text": "This header\n\nquote\n\nHeay"
+    "section": "Hello world",
+    "text": "Hello world\n\nThe world is nice.\n\nAnd this is important to note.\nThe quarto documentation provide a detailed documentation here.\nhttps://quarto.org/docs/authoring/markdown-basics.html"
   },
   {
     "objectID": "usage/index.html",
