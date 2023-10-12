@@ -14,11 +14,25 @@
     "text": "Welcome to the @SmartEdtech git community\nThe msc SmartEdtech master is a international master hosted by the Université Côte d’Azur in Nice France with an incredible community of hundred of students from all other the world."
   },
   {
-    "objectID": "M1/index.html",
-    "href": "M1/index.html",
-    "title": "M1 page",
+    "objectID": "M2/alanc.html",
+    "href": "M2/alanc.html",
+    "title": "Alan’s test page",
     "section": "",
-    "text": "This page presents you M1 smarties."
+    "text": "Some content."
+  },
+  {
+    "objectID": "usage/index.html",
+    "href": "usage/index.html",
+    "title": "Discover quarto",
+    "section": "",
+    "text": "Quarto is based on pandoc «a universal document converter» that convert between multiple formats including.\n\nmarkdown\nhtml\ndocx\nodt\npptx\npdf via latex\nand many others.\n\nThe traditionnal workflow is to use markdown source and convert it to wathever document format you want.\nAdvantages of markdown includes\n\neasy to read\neasy to write\ndescriptive and extensible to fit your use-cases."
+  },
+  {
+    "objectID": "usage/markdown-revealjs.html#hello-world",
+    "href": "usage/markdown-revealjs.html#hello-world",
+    "title": "Markdown basics",
+    "section": "Hello world",
+    "text": "Hello world\n\nThe world is nice.\n\nAnd this is important to note.\nThe quarto documentation provide a detailed documentation here.\nhttps://quarto.org/docs/authoring/markdown-basics.html"
   },
   {
     "objectID": "usage/markdown.html",
@@ -35,18 +49,11 @@
     "text": "Hello world\n\nThe world is nice.\n\nAnd this is important to note.\nThe quarto documentation provide a detailed documentation here.\nhttps://quarto.org/docs/authoring/markdown-basics.html"
   },
   {
-    "objectID": "usage/markdown-revealjs.html#hello-world",
-    "href": "usage/markdown-revealjs.html#hello-world",
-    "title": "Markdown basics",
-    "section": "Hello world",
-    "text": "Hello world\n\nThe world is nice.\n\nAnd this is important to note.\nThe quarto documentation provide a detailed documentation here.\nhttps://quarto.org/docs/authoring/markdown-basics.html"
-  },
-  {
-    "objectID": "usage/index.html",
-    "href": "usage/index.html",
-    "title": "Discover quarto",
+    "objectID": "M1/index.html",
+    "href": "M1/index.html",
+    "title": "M1 page",
     "section": "",
-    "text": "Quarto is based on pandoc «a universal document converter» that convert between multiple formats including.\n\nmarkdown\nhtml\ndocx\nodt\npptx\npdf via latex\nand many others.\n\nThe traditionnal workflow is to use markdown source and convert it to wathever document format you want.\nAdvantages of markdown includes\n\neasy to read\neasy to write\ndescriptive and extensible to fit your use-cases."
+    "text": "This page presents you M1 smarties."
   },
   {
     "objectID": "M2/index.html",
