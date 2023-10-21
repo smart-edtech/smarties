@@ -18,7 +18,7 @@
     "href": "usage/markdown.html",
     "title": "Markdown basics",
     "section": "",
-    "text": "Markdown is just a plain text format that is designed to be easy to write, and, even more importantly, easy to read.\nFor example:\nWill be rendered like this."
+    "text": "Markdown is just a plain text format that is designed to be easy to write, and, even more importantly, easy to read.\nIt just requires a little training but then it is very fast to edit.\nFor example:\nWill be rendered like this."
   },
   {
     "objectID": "usage/markdown.html#hello-world",
