@@ -73,9 +73,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: [{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-author','listing-subtitle','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: [],
+      searchColumns: ["listing-title","listing-author","listing-subtitle","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -177,8 +177,21 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="px-0"><hr class="sidebar-divider hi "></li>
         <li class="sidebar-item sidebar-item-section">
-      <span class="sidebar-item-text sidebar-link text-start">
- <span class="menu-text">Workshops</span></span>
+      <div class="sidebar-item-container"> 
+            <a href="../workshop/index.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Workshops</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../workshop/markdown/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">The power of plain text</span></a>
+  </div>
+</li>
+      </ul>
   </li>
     </ul>
     </div>
@@ -220,7 +233,31 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-
+<div class="quarto-post image-right" data-index="0" data-listing-file-modified-sort="1702978857431" data-listing-reading-time-sort="4">
+<div class="thumbnail">
+<p><a href="../workshop/markdown/index.html"> <p class="card-img-top"><img src="markdown/gusc.png"  class="thumbnail-image card-img"/></p> </a></p>
+</div>
+<div class="body">
+<a href="../workshop/markdown/index.html">
+<h3 class="no-anchor listing-title">
+The power of plain text
+</h3>
+<div class="listing-subtitle">
+a.k.a. a gentle introduction to personal knowledge management using <code>Zettlr</code>
+</div>
+<div class="listing-description">
+PKM is the field that…
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="../workshop/markdown/index.html">
+<div class="listing-author">
+Alan CASTELLINO, Benjamin ABEL
+</div>
+</a>
+</div>
+</div>
 </div>
 <div class="listing-no-matching d-none">
 No matching items
