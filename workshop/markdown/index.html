@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Alan CASTELLINO, Benjamin ABEL">
+<meta name="dcterms.date" content="2023-12-19">
+
+<title>@SmartEdTech - The power of plain text</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../SmartEdTech.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+<meta property="og:title" content="@SmartEdTech - The power of plain text">
+<meta property="og:description" content="a.k.a. a gentle introduction to personal knowledge management using Zettlr">
+<meta property="og:image" content="https://github.com/smart-edtech/smarties/workshop/markdown/gusc.png">
+<meta property="og:site-name" content="@SmartEdTech">
+<meta property="og:image:height" content="368">
+<meta property="og:image:width" content="428">
+<meta name="twitter:title" content="@SmartEdTech - The power of plain text">
+<meta name="twitter:description" content="a.k.a. a gentle introduction to personal knowledge management using Zettlr">
+<meta name="twitter:image" content="https://github.com/smart-edtech/smarties/workshop/markdown/gusc.png">
+<meta name="twitter:image-height" content="368">
+<meta name="twitter:image-width" content="428">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="nav-sidebar floating nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title"><span class="citation" data-cites="SmartEdTech">@SmartEdTech</span></span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html" rel="" target=""><i class="bi bi-house" role="img">
+</i> 
+ <span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../usage/markdown.html" rel="" target=""><i class="bi bi-file-post" role="img">
+</i> 
+ <span class="menu-text">Learn markdown</span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools ms-auto">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">The power of plain text</li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <span class="sidebar-item-text sidebar-link text-start">
+ <span class="menu-text">M1</span></span>
+  </li>
+        <li class="px-0"><hr class="sidebar-divider hi "></li>
+        <li class="sidebar-item sidebar-item-section">
+      <span class="sidebar-item-text sidebar-link text-start">
+ <span class="menu-text">M2</span></span>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#why" id="toc-why" class="nav-link active" data-scroll-target="#why">Why?</a>
+  <ul class="collapse">
+  <li><a href="#raison-dêtre-of-personal-knowledge-management-pkm" id="toc-raison-dêtre-of-personal-knowledge-management-pkm" class="nav-link" data-scroll-target="#raison-dêtre-of-personal-knowledge-management-pkm"><em>Raison d’être</em> of Personal Knowledge Management (PKM)</a></li>
+  <li><a href="#what-is-pkm" id="toc-what-is-pkm" class="nav-link" data-scroll-target="#what-is-pkm">What is PKM?</a></li>
+  <li><a href="#key-skills-in-pkm" id="toc-key-skills-in-pkm" class="nav-link" data-scroll-target="#key-skills-in-pkm">Key skills in PKM</a></li>
+  <li><a href="#key-skills-in-pkm-contd" id="toc-key-skills-in-pkm-contd" class="nav-link" data-scroll-target="#key-skills-in-pkm-contd">Key skills in PKM (cont’d)</a></li>
+  <li><a href="#some-concrete-insights" id="toc-some-concrete-insights" class="nav-link" data-scroll-target="#some-concrete-insights">Some concrete insights</a></li>
+  <li><a href="#the-gusc-model" id="toc-the-gusc-model" class="nav-link" data-scroll-target="#the-gusc-model">The GUSC model</a></li>
+  <li><a href="#the-gusc-model-in-more-details" id="toc-the-gusc-model-in-more-details" class="nav-link" data-scroll-target="#the-gusc-model-in-more-details">The GUSC model in more details</a></li>
+  <li><a href="#a-plethora-of-tools" id="toc-a-plethora-of-tools" class="nav-link" data-scroll-target="#a-plethora-of-tools">A plethora of tools</a></li>
+  <li><a href="#advantages-of-plain-text-editing" id="toc-advantages-of-plain-text-editing" class="nav-link" data-scroll-target="#advantages-of-plain-text-editing">Advantages of plain text editing</a></li>
+  </ul></li>
+  <li><a href="#how" id="toc-how" class="nav-link" data-scroll-target="#how">How?</a>
+  <ul class="collapse">
+  <li><a href="#goal" id="toc-goal" class="nav-link" data-scroll-target="#goal">Goal</a></li>
+  <li><a href="#gusc-in-zettlr" id="toc-gusc-in-zettlr" class="nav-link" data-scroll-target="#gusc-in-zettlr">GUSC in <code>Zettlr</code></a></li>
+  <li><a href="#install-zettlr" id="toc-install-zettlr" class="nav-link" data-scroll-target="#install-zettlr">Install <code>Zettlr</code></a></li>
+  <li><a href="#markdown-syntax" id="toc-markdown-syntax" class="nav-link" data-scroll-target="#markdown-syntax"><code>Markdown</code> syntax</a></li>
+  <li><a href="#basics-and-exporting" id="toc-basics-and-exporting" class="nav-link" data-scroll-target="#basics-and-exporting">Basics and Exporting</a></li>
+  <li><a href="#references-zotero-zettlr" id="toc-references-zotero-zettlr" class="nav-link" data-scroll-target="#references-zotero-zettlr">References: <code>Zotero</code> + <code>Zettlr</code></a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  <li><a href="#zettelkasten-in-zettlr" id="toc-zettelkasten-in-zettlr" class="nav-link" data-scroll-target="#zettelkasten-in-zettlr">Zettelkasten in <code>Zettlr</code></a></li>
+  <li><a href="#graph-view" id="toc-graph-view" class="nav-link" data-scroll-target="#graph-view">Graph view:</a></li>
+  <li><a href="#extending-export-capabilities" id="toc-extending-export-capabilities" class="nav-link" data-scroll-target="#extending-export-capabilities">Extending export capabilities</a></li>
+  <li><a href="#extending-export-capabilities-contd" id="toc-extending-export-capabilities-contd" class="nav-link" data-scroll-target="#extending-export-capabilities-contd">Extending export capabilities (cont’d)</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">The power of plain text</h1>
+<p class="subtitle lead">a.k.a. a gentle introduction to personal knowledge management using <code>Zettlr</code></p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Alan CASTELLINO, Benjamin ABEL </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">December 19, 2023</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+</header>
+
+<style>
+    .reveal {
+        font-size: 2.2em !important;
+    }
+</style>
+<section id="why" class="level1">
+<h1>Why?</h1>
+<section id="raison-dêtre-of-personal-knowledge-management-pkm" class="level2">
+<h2 class="anchored" data-anchor-id="raison-dêtre-of-personal-knowledge-management-pkm"><em>Raison d’être</em> of Personal Knowledge Management (PKM)</h2>
+<ul>
+<li>We live in an information society. We are overloaded with information of diverse nature and quality.</li>
+<li>There is more than <em>information overload</em>: <em>tools overload</em>, <em>social overload</em> and <em>reference overload</em>.</li>
+<li>Most individuals are passive against these concerns. However, the digital medium has its very own characteristics we need to embrace to develop a personal.</li>
+</ul>
+</section>
+<section id="what-is-pkm" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-pkm">What is PKM?</h2>
+<p>PKM is the field that precisely studies that issue: how, as individuals, can we thrive in the informational age? How can we make the most out of information technologies without feeling overwhelmed?</p>
+</section>
+<section id="key-skills-in-pkm" class="level2">
+<h2 class="anchored" data-anchor-id="key-skills-in-pkm">Key skills in PKM</h2>
+<ul>
+<li>Management</li>
+<li>Lifelong learning</li>
+<li>Communication and interpersonal skills</li>
+<li>Technological fluency</li>
+<li>Forecasting and anticipating</li>
+</ul>
+</section>
+<section id="key-skills-in-pkm-contd" class="level2">
+<h2 class="anchored" data-anchor-id="key-skills-in-pkm-contd">Key skills in PKM (cont’d)</h2>
+<ul>
+<li>Use frameworks, models and conceptual tools to build upon your current KM practices.</li>
+<li>Implement PKM strategies using digital technologies.</li>
+<li>PKM practices are ultimately personal and evolving constructs.</li>
+<li>Reflect about the process, iterate, exchange with others</li>
+</ul>
+</section>
+<section id="some-concrete-insights" class="level2">
+<h2 class="anchored" data-anchor-id="some-concrete-insights">Some concrete insights</h2>
+<ul>
+<li>Find an equilibrium between <em>content consumption</em> and <em>content creation</em></li>
+<li>Move from <em>note-taking</em> to <em>note-making</em>: think about your notes, not just their content</li>
+<li>Showcase your learning: <em>learn in public</em>, build a <em>digital garden</em></li>
+<li>View digital tools as opportunities to design new workflows</li>
+</ul>
+</section>
+<section id="the-gusc-model" class="level2">
+<h2 class="anchored" data-anchor-id="the-gusc-model">The GUSC model</h2>
+<p>We will use the GUSC model. It can be seen as a concretization of the SECI model.</p>
+<p><img src="gusc.png" class="img-fluid"></p>
+<p>→ A simple yet powerful model. We need to associate concrete actions to each phase.</p>
+</section>
+<section id="the-gusc-model-in-more-details" class="level2">
+<h2 class="anchored" data-anchor-id="the-gusc-model-in-more-details">The GUSC model in more details</h2>
+<ul>
+<li><strong>Get</strong>: gather information from different sources</li>
+<li><strong>Understand</strong>: interpret, combine information into a (personal) whole</li>
+<li><strong>Share</strong>: produce artifacts to make the learning process visible</li>
+<li><strong>Connect</strong>: collaborate and exchange with others</li>
+</ul>
+</section>
+<section id="a-plethora-of-tools" class="level2">
+<h2 class="anchored" data-anchor-id="a-plethora-of-tools">A plethora of tools</h2>
+<p><code>Notion</code>, <code>Roam</code>, <code>Tana</code>, <code>Obsidian</code>, <code>Logseq</code>, <code>AnyType</code>, <code>Affine</code>, <code>TiddlyWiki</code>, <code>Zettlr</code>…</p>
+<ul>
+<li>Local vs Web-aware vs Web-based</li>
+<li>FOSS vs Freeware vs Paid</li>
+<li>Specific ↔︎ Extensible ↔︎ Malleable</li>
+<li>User-friendly?</li>
+</ul>
+<p>→ We will use <code>Zettlr</code></p>
+</section>
+<section id="advantages-of-plain-text-editing" class="level2">
+<h2 class="anchored" data-anchor-id="advantages-of-plain-text-editing">Advantages of plain text editing</h2>
+<ul>
+<li>Lightweight: you can work with just a simple text editor. You can store your files anywhere.</li>
+<li>Easily readable and writable: a whole range of apps work with plain text. It is also easy to manipulate programmatically.</li>
+<li>No lock-in: you can use your text files in different apps for different purposes. You can switch to a new app that better fits your needs seamlessly.</li>
+<li>Teaches you about computing and the <em>hacker mindset</em> in a hands-on way.</li>
+</ul>
+</section>
+</section>
+<section id="how" class="level1">
+<h1>How?</h1>
+<section id="goal" class="level2">
+<h2 class="anchored" data-anchor-id="goal">Goal</h2>
+<p>→ We will see how <code>Zettlr</code> can help us implement strategies for the first 3 steps of the GUSC model (<strong>Get</strong>, <strong>Understand</strong>, <strong>Share</strong>).</p>
+<p><code>Zettlr</code> is:</p>
+<ul>
+<li>Free and Open-Source</li>
+<li>Web-aware</li>
+<li>Supported by a community (<code>Discord</code>, <code>Reddit</code>)</li>
+<li>Specific but plays nicely with other tools (bibliography, export)</li>
+</ul>
+</section>
+<section id="gusc-in-zettlr" class="level2">
+<h2 class="anchored" data-anchor-id="gusc-in-zettlr">GUSC in <code>Zettlr</code></h2>
+<p><img src="zettlr_gusc.png" class="img-fluid"></p>
+</section>
+<section id="install-zettlr" class="level2">
+<h2 class="anchored" data-anchor-id="install-zettlr">Install <code>Zettlr</code></h2>
+<ul>
+<li>Simply go to the official website: <a href="https://zettlr.com/download">zettlr.com/download</a></li>
+<li>Install and open it.</li>
+<li>If you write academic articles, you will need <code>LaTeX</code> at some point. Simply use <code>MikTeX</code> (this is not the point today).</li>
+</ul>
+</section>
+<section id="markdown-syntax" class="level2">
+<h2 class="anchored" data-anchor-id="markdown-syntax"><code>Markdown</code> syntax</h2>
+<ul>
+<li><p><code># Section heading</code></p>
+<p><code>## Subsection heading</code>…</p></li>
+<li><p>This is <code>_emphasized_</code> and this is <code>**strong**</code></p></li>
+<li><p>This is a <code>- List item</code></p></li>
+<li><p>This is a <code>1. Numberred item</code></p></li>
+<li><p>This is a <code>[link](https://zettlr.com)</code></p></li>
+<li><p>This is an <code>![cute_cat.png](image)</code></p></li>
+<li><p><code>YAML</code>: metadata and options</p></li>
+</ul>
+</section>
+<section id="basics-and-exporting" class="level2">
+<h2 class="anchored" data-anchor-id="basics-and-exporting">Basics and Exporting</h2>
+<ul>
+<li>Create a new file</li>
+<li>Fill it up with some headings and content.</li>
+<li>You have some shortcut icons (e.g.&nbsp;links and images)</li>
+<li>Left pane: files explorer</li>
+<li>Right pane: outline and more</li>
+<li>Export button: select one of the available formats (except <code>LaTeX</code>)</li>
+</ul>
+</section>
+<section id="references-zotero-zettlr" class="level2">
+<h2 class="anchored" data-anchor-id="references-zotero-zettlr">References: <code>Zotero</code> + <code>Zettlr</code></h2>
+<ol type="1">
+<li>Install <code>Zotero</code>. You will manage all your references from here.</li>
+<li>Install the <code>BetterBibTeX</code> plugin for <code>Zotero</code></li>
+<li>Export your <code>Zotero</code> library</li>
+<li>Open it in <code>Zettlr</code></li>
+<li>Type in <code>@</code> and select one of your refs.</li>
+</ol>
+<p><strong>Example</strong> <span class="citation" data-cites="resnickLifelongKindergartenCultivating2017">[@resnickLifelongKindergartenCultivating2017]</span> and others emphasize the need to develop creativity in computing education.</p>
+<p><span class="citation" data-cites="morPracticalDesignPatterns2014">[@morPracticalDesignPatterns2014]</span> have developed design patterns for implementing technology-enhanced pedagogy.</p>
+</section>
+<section id="references" class="level2">
+<h2 class="anchored" data-anchor-id="references">References</h2>
+<div id="refs" role="list">
+
+</div>
+</section>
+<section id="zettelkasten-in-zettlr" class="level2">
+<h2 class="anchored" data-anchor-id="zettelkasten-in-zettlr">Zettelkasten in <code>Zettlr</code></h2>
+<ul>
+<li>Use #tags.</li>
+<li>Link to other files, such as in [[about_tags]].</li>
+<li>Give unique IDs to files such as [[20231216180452]] Another file</li>
+</ul>
+</section>
+<section id="graph-view" class="level2">
+<h2 class="anchored" data-anchor-id="graph-view">Graph view:</h2>
+<p><img src="graph_view.png" class="img-fluid" style="width:80.0%"></p>
+</section>
+<section id="extending-export-capabilities" class="level2">
+<h2 class="anchored" data-anchor-id="extending-export-capabilities">Extending export capabilities</h2>
+<ul>
+<li>Change how things look</li>
+<li>Add new export possibilities thanks to <code>Pandoc</code></li>
+</ul>
+<p>We will use the Assets dialog: File &gt; Preferences &gt; Manage assets</p>
+<p><strong>Challenge 1: use custom <code>CSS</code> to style <code>HTML</code> output</strong></p>
+<ul>
+<li>The given file is <code>custom.css</code>.</li>
+<li>Select the <code>HTML</code> profile. On line 46, add <code>custom.css</code> between the brackets.</li>
+<li>You can also add <code>css: custom.css</code> to the YAML on each file you want to export with <code>custom.css</code>.</li>
+</ul>
+</section>
+<section id="extending-export-capabilities-contd" class="level2">
+<h2 class="anchored" data-anchor-id="extending-export-capabilities-contd">Extending export capabilities (cont’d)</h2>
+<p><strong>Challenge 2: enable export to <code>PowerPoint</code> presentations</strong></p>
+<ul>
+<li>By default, <code>Zettlr</code> offers no possibility to export to <code>.pptx</code> (<code>PowerPoint</code>). However, <code>pandoc</code> can do it.</li>
+<li>Create a new profile with <code>reader: markdown</code> and <code>writer: pptx</code></li>
+</ul>
+<p><strong>Challenge 3: modify how things look in <code>docx</code>, <code>pptx</code>, <code>odt</code></strong></p>
+<ul>
+<li>You can specify a template by adding <code>reference_doc: template.pptx</code> to the corresponding profile.</li>
+<li>We provide <code>custom.docx</code>, <code>custom.odt</code> and <code>custom.pptx</code></li>
+<li>Modify the slide masters in the provided template</li>
+<li>For <code>docx/odt</code>, modify the styles.</li>
+</ul>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
