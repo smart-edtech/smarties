@@ -18,14 +18,14 @@
     "href": "workshop/markdown/index.html",
     "title": "The power of plain text",
     "section": "",
-    "text": "Figure out why you should get familiar with knowledge management and content publishing\nFigure out the advantages of plain text and multi-format exporting\nGet familiar with Markdown and basic exporting using a simple tool\nStart to elaborate personal PKM practices\nExperience how a tool like Zettlr can help with this process\n\n\n\n\nHave a look at what you can get with a bit of practical knowledge of plain text workflows (quarto) and GitHub: https://smart-edtech.github.io/smarties/\n\nAutomatic build of the website\nMulti-format exporting avairable"
+    "text": "Figure out why you should get familiar with knowledge management and content publishing\nFigure out the advantages of plain text and multi-format exporting\nGet familiar with Markdown and basic exporting using a simple tool\nStart to elaborate personal PKM practices\nExperience how a tool like Zettlr can help with the PKM process\n\n\n\n\nHave a look at what you can get with a bit of practical knowledge of plain text workflows (quarto) and GitHub: https://smart-edtech.github.io/smarties/\n\nAutomatic build of the website\nMulti-format exporting avairable"
   },
   {
     "objectID": "workshop/markdown/index.html#objectives",
     "href": "workshop/markdown/index.html#objectives",
     "title": "The power of plain text",
     "section": "",
-    "text": "Figure out why you should get familiar with knowledge management and content publishing\nFigure out the advantages of plain text and multi-format exporting\nGet familiar with Markdown and basic exporting using a simple tool\nStart to elaborate personal PKM practices\nExperience how a tool like Zettlr can help with this process"
+    "text": "Figure out why you should get familiar with knowledge management and content publishing\nFigure out the advantages of plain text and multi-format exporting\nGet familiar with Markdown and basic exporting using a simple tool\nStart to elaborate personal PKM practices\nExperience how a tool like Zettlr can help with the PKM process"
   },
   {
     "objectID": "workshop/markdown/index.html#overview",
@@ -47,6 +47,48 @@
     "title": "The power of plain text",
     "section": "What is PKM?",
     "text": "What is PKM?\nPKM is the field that precisely studies that issue: how, as individuals, can we thrive in the informational age? How can we make the most out of information technologies without feeling overwhelmed?"
+  },
+  {
+    "objectID": "workshop/markdown/index.html#a-plethora-of-tools",
+    "href": "workshop/markdown/index.html#a-plethora-of-tools",
+    "title": "The power of plain text",
+    "section": "A plethora of tools",
+    "text": "A plethora of tools\nNotion, Roam, Tana, Obsidian, Logseq, AnyType, Affine, TiddlyWiki, Zettlr…\n\nLocal vs Web-aware vs Web-based\nFOSS vs Freeware vs Paid\nSpecific ↔︎ Extensible ↔︎ Malleable\nUser-friendly?"
+  },
+  {
+    "objectID": "workshop/markdown/index.html#advantages-of-plain-text-editing",
+    "href": "workshop/markdown/index.html#advantages-of-plain-text-editing",
+    "title": "The power of plain text",
+    "section": "Advantages of plain text editing",
+    "text": "Advantages of plain text editing\n\nLightweight: you can work with just a simple text editor. You can store your files anywhere.\nEasily readable and writable: a whole range of apps work with plain text. It is also easy to manipulate programmatically.\nNo lock-in: you can use your text files in different apps for different purposes. You can switch to a new app that better fits your needs seamlessly.\nTeaches you about computing and the hacker mindset in a hands-on way."
+  },
+  {
+    "objectID": "workshop/markdown/index.html#meet-zettlr",
+    "href": "workshop/markdown/index.html#meet-zettlr",
+    "title": "The power of plain text",
+    "section": "Meet Zettlr",
+    "text": "Meet Zettlr\nZettlr is:\n\nDesigned with simplicity in mind\nFree and Open-Source\nWeb-aware\nSupported by a community (Discord, Reddit)\nSpecific but plays nicely with other tools (bibliography, export)"
+  },
+  {
+    "objectID": "workshop/markdown/index.html#install-zettlr",
+    "href": "workshop/markdown/index.html#install-zettlr",
+    "title": "The power of plain text",
+    "section": "Install Zettlr",
+    "text": "Install Zettlr\n\nSimply go to the official website: zettlr.com/download\nInstall and open it.\nIf you write academic articles, you will need LaTeX at some point. Simply use MikTeX (this is not the point today)."
+  },
+  {
+    "objectID": "workshop/markdown/index.html#markdown-syntax",
+    "href": "workshop/markdown/index.html#markdown-syntax",
+    "title": "The power of plain text",
+    "section": "Markdown syntax",
+    "text": "Markdown syntax\n\n# Section heading\n## Subsection heading…\nThis is _emphasized_ and this is **strong**\nThis is a - List item\nThis is a 1. Numberred item\nThis is a [link](https://zettlr.com)\nThis is an ![cute_cat.png](image)\nYAML: metadata and options"
+  },
+  {
+    "objectID": "workshop/markdown/index.html#basics-and-exporting",
+    "href": "workshop/markdown/index.html#basics-and-exporting",
+    "title": "The power of plain text",
+    "section": "Basics and Exporting",
+    "text": "Basics and Exporting\n\nCreate a new file\nFill it up with some headings and content.\nYou have some shortcut icons (e.g. links and images)\nLeft pane: files explorer\nRight pane: outline and more\nExport button: select one of the available formats (except LaTeX)"
   },
   {
     "objectID": "workshop/markdown/index.html#key-skills-in-pkm",
@@ -84,25 +126,11 @@
     "text": "The GUSC model in more details\n\nGet: gather information from different sources\nUnderstand: interpret, combine information into a (personal) whole\nShare: produce artifacts to make the learning process visible\nConnect: collaborate and exchange with others"
   },
   {
-    "objectID": "workshop/markdown/index.html#a-plethora-of-tools",
-    "href": "workshop/markdown/index.html#a-plethora-of-tools",
+    "objectID": "workshop/markdown/index.html#back-to-practice",
+    "href": "workshop/markdown/index.html#back-to-practice",
     "title": "The power of plain text",
-    "section": "A plethora of tools",
-    "text": "A plethora of tools\nNotion, Roam, Tana, Obsidian, Logseq, AnyType, Affine, TiddlyWiki, Zettlr…\n\nLocal vs Web-aware vs Web-based\nFOSS vs Freeware vs Paid\nSpecific ↔︎ Extensible ↔︎ Malleable\nUser-friendly?\n\n→ We will use Zettlr"
-  },
-  {
-    "objectID": "workshop/markdown/index.html#advantages-of-plain-text-editing",
-    "href": "workshop/markdown/index.html#advantages-of-plain-text-editing",
-    "title": "The power of plain text",
-    "section": "Advantages of plain text editing",
-    "text": "Advantages of plain text editing\n\nLightweight: you can work with just a simple text editor. You can store your files anywhere.\nEasily readable and writable: a whole range of apps work with plain text. It is also easy to manipulate programmatically.\nNo lock-in: you can use your text files in different apps for different purposes. You can switch to a new app that better fits your needs seamlessly.\nTeaches you about computing and the hacker mindset in a hands-on way."
-  },
-  {
-    "objectID": "workshop/markdown/index.html#goal",
-    "href": "workshop/markdown/index.html#goal",
-    "title": "The power of plain text",
-    "section": "Goal",
-    "text": "Goal\n→ We will see how Zettlr can help us implement strategies for the first 3 steps of the GUSC model (Get, Understand, Share).\nZettlr is:\n\nFree and Open-Source\nWeb-aware\nSupported by a community (Discord, Reddit)\nSpecific but plays nicely with other tools (bibliography, export)"
+    "section": "Back to practice",
+    "text": "Back to practice\n→ We will see how Zettlr can help us implement strategies for the first 3 steps of the GUSC model (Get, Understand, Share)."
   },
   {
     "objectID": "workshop/markdown/index.html#gusc-in-zettlr",
@@ -112,32 +140,11 @@
     "text": "GUSC in Zettlr"
   },
   {
-    "objectID": "workshop/markdown/index.html#install-zettlr",
-    "href": "workshop/markdown/index.html#install-zettlr",
+    "objectID": "workshop/markdown/index.html#get-phase-referencing-with-zotero-and-zettlr",
+    "href": "workshop/markdown/index.html#get-phase-referencing-with-zotero-and-zettlr",
     "title": "The power of plain text",
-    "section": "Install Zettlr",
-    "text": "Install Zettlr\n\nSimply go to the official website: zettlr.com/download\nInstall and open it.\nIf you write academic articles, you will need LaTeX at some point. Simply use MikTeX (this is not the point today)."
-  },
-  {
-    "objectID": "workshop/markdown/index.html#markdown-syntax",
-    "href": "workshop/markdown/index.html#markdown-syntax",
-    "title": "The power of plain text",
-    "section": "Markdown syntax",
-    "text": "Markdown syntax\n\n# Section heading\n## Subsection heading…\nThis is _emphasized_ and this is **strong**\nThis is a - List item\nThis is a 1. Numberred item\nThis is a [link](https://zettlr.com)\nThis is an ![cute_cat.png](image)\nYAML: metadata and options"
-  },
-  {
-    "objectID": "workshop/markdown/index.html#basics-and-exporting",
-    "href": "workshop/markdown/index.html#basics-and-exporting",
-    "title": "The power of plain text",
-    "section": "Basics and Exporting",
-    "text": "Basics and Exporting\n\nCreate a new file\nFill it up with some headings and content.\nYou have some shortcut icons (e.g. links and images)\nLeft pane: files explorer\nRight pane: outline and more\nExport button: select one of the available formats (except LaTeX)"
-  },
-  {
-    "objectID": "workshop/markdown/index.html#references-zotero-zettlr",
-    "href": "workshop/markdown/index.html#references-zotero-zettlr",
-    "title": "The power of plain text",
-    "section": "References: Zotero + Zettlr",
-    "text": "References: Zotero + Zettlr\n\nInstall Zotero. You will manage all your references from here.\nInstall the BetterBibTeX plugin for Zotero\nExport your Zotero library\nOpen it in Zettlr\nType in @ and select one of your refs.\n\nExample [@resnickLifelongKindergartenCultivating2017] and others emphasize the need to develop creativity in computing education.\n[@morPracticalDesignPatterns2014] have developed design patterns for implementing technology-enhanced pedagogy."
+    "section": "Get phase: referencing with Zotero and Zettlr",
+    "text": "Get phase: referencing with Zotero and Zettlr\n\nInstall Zotero. You will manage all your references from here.\nInstall the BetterBibTeX plugin for Zotero\nExport your Zotero library\nOpen it in Zettlr\nType in @ and select one of your refs.\n\nExample [@resnickLifelongKindergartenCultivating2017] and others emphasize the need to develop creativity in computing education.\n[@morPracticalDesignPatterns2014] have developed design patterns for implementing technology-enhanced pedagogy."
   },
   {
     "objectID": "workshop/markdown/index.html#references",
@@ -147,39 +154,39 @@
     "text": "References"
   },
   {
-    "objectID": "workshop/markdown/index.html#zettelkasten-in-zettlr",
-    "href": "workshop/markdown/index.html#zettelkasten-in-zettlr",
+    "objectID": "workshop/markdown/index.html#understand-phase-zettelkasten-in-zettlr",
+    "href": "workshop/markdown/index.html#understand-phase-zettelkasten-in-zettlr",
     "title": "The power of plain text",
-    "section": "Zettelkasten in Zettlr",
-    "text": "Zettelkasten in Zettlr\n\nUse #tags.\nLink to other files, such as in [[about_tags]].\nGive unique IDs to files such as [[20231216180452]] Another file"
+    "section": "Understand phase: Zettelkasten in Zettlr",
+    "text": "Understand phase: Zettelkasten in Zettlr\nA methodology to make sense of your notes.\nSome insights:\n\nUse #tags.\nLink to other files, such as in [[about_tags]].\nGive unique IDs to files such as [[20231216180452]] Another file"
   },
   {
-    "objectID": "workshop/markdown/index.html#graph-view",
-    "href": "workshop/markdown/index.html#graph-view",
+    "objectID": "workshop/markdown/index.html#understand-phase-the-graph-view",
+    "href": "workshop/markdown/index.html#understand-phase-the-graph-view",
     "title": "The power of plain text",
-    "section": "Graph view:",
-    "text": "Graph view:"
+    "section": "Understand phase: the Graph view:",
+    "text": "Understand phase: the Graph view:"
   },
   {
-    "objectID": "workshop/markdown/index.html#extending-export-capabilities",
-    "href": "workshop/markdown/index.html#extending-export-capabilities",
+    "objectID": "workshop/markdown/index.html#share-phase-extending-export-capabilities",
+    "href": "workshop/markdown/index.html#share-phase-extending-export-capabilities",
     "title": "The power of plain text",
-    "section": "Extending export capabilities",
-    "text": "Extending export capabilities\n\nChange how things look\nAdd new export possibilities thanks to Pandoc\n\nWe will use the Assets dialog: File &gt; Preferences &gt; Manage assets\nChallenge 1: use custom CSS to style HTML output\n\nThe given file is custom.css.\nSelect the HTML profile. On line 46, add custom.css between the brackets.\nYou can also add css: custom.css to the YAML on each file you want to export with custom.css."
+    "section": "Share phase: extending export capabilities",
+    "text": "Share phase: extending export capabilities\n\nChange how things look\nAdd new export possibilities thanks to Pandoc\n\nWe will use the Assets dialog: File &gt; Preferences &gt; Manage assets\nChallenge 1: use custom CSS to style HTML output\n\nThe given file is custom.css.\nSelect the HTML profile. On line 46, add custom.css between the brackets.\nYou can also add css: custom.css to the YAML on each file you want to export with custom.css."
   },
   {
-    "objectID": "workshop/markdown/index.html#extending-export-capabilities-contd",
-    "href": "workshop/markdown/index.html#extending-export-capabilities-contd",
+    "objectID": "workshop/markdown/index.html#share-phase-extending-export-capabilities-contd",
+    "href": "workshop/markdown/index.html#share-phase-extending-export-capabilities-contd",
     "title": "The power of plain text",
-    "section": "Extending export capabilities (cont’d)",
-    "text": "Extending export capabilities (cont’d)\nChallenge 2: enable export to PowerPoint presentations\n\nBy default, Zettlr offers no possibility to export to .pptx (PowerPoint). However, pandoc can do it.\nCreate a new profile with reader: markdown and writer: pptx\n\nChallenge 3: modify how things look in docx, pptx, odt\n\nYou can specify a template by adding reference_doc: template.pptx to the corresponding profile.\nWe provide custom.docx, custom.odt and custom.pptx\nModify the slide masters in the provided template\nFor docx/odt, modify the styles."
+    "section": "Share phase: extending export capabilities (cont’d)",
+    "text": "Share phase: extending export capabilities (cont’d)\nChallenge 2: enable export to PowerPoint presentations\n\nBy default, Zettlr offers no possibility to export to .pptx (PowerPoint). However, pandoc can do it.\nCreate a new profile with reader: markdown and writer: pptx\n\nChallenge 3: modify how things look in docx, pptx, odt\n\nYou can specify a template by adding reference_doc: template.pptx to the corresponding profile.\nWe provide custom.docx, custom.odt and custom.pptx\nModify the slide masters in the provided template\nFor docx/odt, modify the styles."
   },
   {
     "objectID": "workshop/markdown/markdown-revealjs.html#objectives",
     "href": "workshop/markdown/markdown-revealjs.html#objectives",
     "title": "The power of plain text",
     "section": "Objectives",
-    "text": "Objectives\n\nFigure out why you should get familiar with knowledge management and content publishing\nFigure out the advantages of plain text and multi-format exporting\nGet familiar with Markdown and basic exporting using a simple tool\nStart to elaborate personal PKM practices\nExperience how a tool like Zettlr can help with this process"
+    "text": "Objectives\n\nFigure out why you should get familiar with knowledge management and content publishing\nFigure out the advantages of plain text and multi-format exporting\nGet familiar with Markdown and basic exporting using a simple tool\nStart to elaborate personal PKM practices\nExperience how a tool like Zettlr can help with the PKM process"
   },
   {
     "objectID": "workshop/markdown/markdown-revealjs.html#overview",
@@ -201,6 +208,48 @@
     "title": "The power of plain text",
     "section": "What is PKM?",
     "text": "What is PKM?\nPKM is the field that precisely studies that issue: how, as individuals, can we thrive in the informational age? How can we make the most out of information technologies without feeling overwhelmed?"
+  },
+  {
+    "objectID": "workshop/markdown/markdown-revealjs.html#a-plethora-of-tools",
+    "href": "workshop/markdown/markdown-revealjs.html#a-plethora-of-tools",
+    "title": "The power of plain text",
+    "section": "A plethora of tools",
+    "text": "A plethora of tools\nNotion, Roam, Tana, Obsidian, Logseq, AnyType, Affine, TiddlyWiki, Zettlr…\n\nLocal vs Web-aware vs Web-based\nFOSS vs Freeware vs Paid\nSpecific ↔︎ Extensible ↔︎ Malleable\nUser-friendly?"
+  },
+  {
+    "objectID": "workshop/markdown/markdown-revealjs.html#advantages-of-plain-text-editing",
+    "href": "workshop/markdown/markdown-revealjs.html#advantages-of-plain-text-editing",
+    "title": "The power of plain text",
+    "section": "Advantages of plain text editing",
+    "text": "Advantages of plain text editing\n\nLightweight: you can work with just a simple text editor. You can store your files anywhere.\nEasily readable and writable: a whole range of apps work with plain text. It is also easy to manipulate programmatically.\nNo lock-in: you can use your text files in different apps for different purposes. You can switch to a new app that better fits your needs seamlessly.\nTeaches you about computing and the hacker mindset in a hands-on way."
+  },
+  {
+    "objectID": "workshop/markdown/markdown-revealjs.html#meet-zettlr",
+    "href": "workshop/markdown/markdown-revealjs.html#meet-zettlr",
+    "title": "The power of plain text",
+    "section": "Meet Zettlr",
+    "text": "Meet Zettlr\nZettlr is:\n\nDesigned with simplicity in mind\nFree and Open-Source\nWeb-aware\nSupported by a community (Discord, Reddit)\nSpecific but plays nicely with other tools (bibliography, export)"
+  },
+  {
+    "objectID": "workshop/markdown/markdown-revealjs.html#install-zettlr",
+    "href": "workshop/markdown/markdown-revealjs.html#install-zettlr",
+    "title": "The power of plain text",
+    "section": "Install Zettlr",
+    "text": "Install Zettlr\n\nSimply go to the official website: zettlr.com/download\nInstall and open it.\nIf you write academic articles, you will need LaTeX at some point. Simply use MikTeX (this is not the point today)."
+  },
+  {
+    "objectID": "workshop/markdown/markdown-revealjs.html#markdown-syntax",
+    "href": "workshop/markdown/markdown-revealjs.html#markdown-syntax",
+    "title": "The power of plain text",
+    "section": "Markdown syntax",
+    "text": "Markdown syntax\n\n# Section heading\n## Subsection heading…\nThis is _emphasized_ and this is **strong**\nThis is a - List item\nThis is a 1. Numberred item\nThis is a [link](https://zettlr.com)\nThis is an ![cute_cat.png](image)\nYAML: metadata and options"
+  },
+  {
+    "objectID": "workshop/markdown/markdown-revealjs.html#basics-and-exporting",
+    "href": "workshop/markdown/markdown-revealjs.html#basics-and-exporting",
+    "title": "The power of plain text",
+    "section": "Basics and Exporting",
+    "text": "Basics and Exporting\n\nCreate a new file\nFill it up with some headings and content.\nYou have some shortcut icons (e.g. links and images)\nLeft pane: files explorer\nRight pane: outline and more\nExport button: select one of the available formats (except LaTeX)"
   },
   {
     "objectID": "workshop/markdown/markdown-revealjs.html#key-skills-in-pkm",
@@ -238,25 +287,11 @@
     "text": "The GUSC model in more details\n\nGet: gather information from different sources\nUnderstand: interpret, combine information into a (personal) whole\nShare: produce artifacts to make the learning process visible\nConnect: collaborate and exchange with others"
   },
   {
-    "objectID": "workshop/markdown/markdown-revealjs.html#a-plethora-of-tools",
-    "href": "workshop/markdown/markdown-revealjs.html#a-plethora-of-tools",
+    "objectID": "workshop/markdown/markdown-revealjs.html#back-to-practice",
+    "href": "workshop/markdown/markdown-revealjs.html#back-to-practice",
     "title": "The power of plain text",
-    "section": "A plethora of tools",
-    "text": "A plethora of tools\nNotion, Roam, Tana, Obsidian, Logseq, AnyType, Affine, TiddlyWiki, Zettlr…\n\nLocal vs Web-aware vs Web-based\nFOSS vs Freeware vs Paid\nSpecific ↔︎ Extensible ↔︎ Malleable\nUser-friendly?\n\n→ We will use Zettlr"
-  },
-  {
-    "objectID": "workshop/markdown/markdown-revealjs.html#advantages-of-plain-text-editing",
-    "href": "workshop/markdown/markdown-revealjs.html#advantages-of-plain-text-editing",
-    "title": "The power of plain text",
-    "section": "Advantages of plain text editing",
-    "text": "Advantages of plain text editing\n\nLightweight: you can work with just a simple text editor. You can store your files anywhere.\nEasily readable and writable: a whole range of apps work with plain text. It is also easy to manipulate programmatically.\nNo lock-in: you can use your text files in different apps for different purposes. You can switch to a new app that better fits your needs seamlessly.\nTeaches you about computing and the hacker mindset in a hands-on way."
-  },
-  {
-    "objectID": "workshop/markdown/markdown-revealjs.html#goal",
-    "href": "workshop/markdown/markdown-revealjs.html#goal",
-    "title": "The power of plain text",
-    "section": "Goal",
-    "text": "Goal\n→ We will see how Zettlr can help us implement strategies for the first 3 steps of the GUSC model (Get, Understand, Share).\nZettlr is:\n\nFree and Open-Source\nWeb-aware\nSupported by a community (Discord, Reddit)\nSpecific but plays nicely with other tools (bibliography, export)"
+    "section": "Back to practice",
+    "text": "Back to practice\n→ We will see how Zettlr can help us implement strategies for the first 3 steps of the GUSC model (Get, Understand, Share)."
   },
   {
     "objectID": "workshop/markdown/markdown-revealjs.html#gusc-in-zettlr",
@@ -266,32 +301,11 @@
     "text": "GUSC in Zettlr"
   },
   {
-    "objectID": "workshop/markdown/markdown-revealjs.html#install-zettlr",
-    "href": "workshop/markdown/markdown-revealjs.html#install-zettlr",
+    "objectID": "workshop/markdown/markdown-revealjs.html#get-phase-referencing-with-zotero-and-zettlr",
+    "href": "workshop/markdown/markdown-revealjs.html#get-phase-referencing-with-zotero-and-zettlr",
     "title": "The power of plain text",
-    "section": "Install Zettlr",
-    "text": "Install Zettlr\n\nSimply go to the official website: zettlr.com/download\nInstall and open it.\nIf you write academic articles, you will need LaTeX at some point. Simply use MikTeX (this is not the point today)."
-  },
-  {
-    "objectID": "workshop/markdown/markdown-revealjs.html#markdown-syntax",
-    "href": "workshop/markdown/markdown-revealjs.html#markdown-syntax",
-    "title": "The power of plain text",
-    "section": "Markdown syntax",
-    "text": "Markdown syntax\n\n# Section heading\n## Subsection heading…\nThis is _emphasized_ and this is **strong**\nThis is a - List item\nThis is a 1. Numberred item\nThis is a [link](https://zettlr.com)\nThis is an ![cute_cat.png](image)\nYAML: metadata and options"
-  },
-  {
-    "objectID": "workshop/markdown/markdown-revealjs.html#basics-and-exporting",
-    "href": "workshop/markdown/markdown-revealjs.html#basics-and-exporting",
-    "title": "The power of plain text",
-    "section": "Basics and Exporting",
-    "text": "Basics and Exporting\n\nCreate a new file\nFill it up with some headings and content.\nYou have some shortcut icons (e.g. links and images)\nLeft pane: files explorer\nRight pane: outline and more\nExport button: select one of the available formats (except LaTeX)"
-  },
-  {
-    "objectID": "workshop/markdown/markdown-revealjs.html#references-zotero-zettlr",
-    "href": "workshop/markdown/markdown-revealjs.html#references-zotero-zettlr",
-    "title": "The power of plain text",
-    "section": "References: Zotero + Zettlr",
-    "text": "References: Zotero + Zettlr\n\nInstall Zotero. You will manage all your references from here.\nInstall the BetterBibTeX plugin for Zotero\nExport your Zotero library\nOpen it in Zettlr\nType in @ and select one of your refs.\n\nExample [@resnickLifelongKindergartenCultivating2017] and others emphasize the need to develop creativity in computing education.\n[@morPracticalDesignPatterns2014] have developed design patterns for implementing technology-enhanced pedagogy."
+    "section": "Get phase: referencing with Zotero and Zettlr",
+    "text": "Get phase: referencing with Zotero and Zettlr\n\nInstall Zotero. You will manage all your references from here.\nInstall the BetterBibTeX plugin for Zotero\nExport your Zotero library\nOpen it in Zettlr\nType in @ and select one of your refs.\n\nExample [@resnickLifelongKindergartenCultivating2017] and others emphasize the need to develop creativity in computing education.\n[@morPracticalDesignPatterns2014] have developed design patterns for implementing technology-enhanced pedagogy."
   },
   {
     "objectID": "workshop/markdown/markdown-revealjs.html#references",
@@ -301,32 +315,32 @@
     "text": "References"
   },
   {
-    "objectID": "workshop/markdown/markdown-revealjs.html#zettelkasten-in-zettlr",
-    "href": "workshop/markdown/markdown-revealjs.html#zettelkasten-in-zettlr",
+    "objectID": "workshop/markdown/markdown-revealjs.html#understand-phase-zettelkasten-in-zettlr",
+    "href": "workshop/markdown/markdown-revealjs.html#understand-phase-zettelkasten-in-zettlr",
     "title": "The power of plain text",
-    "section": "Zettelkasten in Zettlr",
-    "text": "Zettelkasten in Zettlr\n\nUse #tags.\nLink to other files, such as in [[about_tags]].\nGive unique IDs to files such as [[20231216180452]] Another file"
+    "section": "Understand phase: Zettelkasten in Zettlr",
+    "text": "Understand phase: Zettelkasten in Zettlr\nA methodology to make sense of your notes.\nSome insights:\n\nUse #tags.\nLink to other files, such as in [[about_tags]].\nGive unique IDs to files such as [[20231216180452]] Another file"
   },
   {
-    "objectID": "workshop/markdown/markdown-revealjs.html#graph-view",
-    "href": "workshop/markdown/markdown-revealjs.html#graph-view",
+    "objectID": "workshop/markdown/markdown-revealjs.html#understand-phase-the-graph-view",
+    "href": "workshop/markdown/markdown-revealjs.html#understand-phase-the-graph-view",
     "title": "The power of plain text",
-    "section": "Graph view:",
-    "text": "Graph view:"
+    "section": "Understand phase: the Graph view:",
+    "text": "Understand phase: the Graph view:"
   },
   {
-    "objectID": "workshop/markdown/markdown-revealjs.html#extending-export-capabilities",
-    "href": "workshop/markdown/markdown-revealjs.html#extending-export-capabilities",
+    "objectID": "workshop/markdown/markdown-revealjs.html#share-phase-extending-export-capabilities",
+    "href": "workshop/markdown/markdown-revealjs.html#share-phase-extending-export-capabilities",
     "title": "The power of plain text",
-    "section": "Extending export capabilities",
-    "text": "Extending export capabilities\n\nChange how things look\nAdd new export possibilities thanks to Pandoc\n\nWe will use the Assets dialog: File &gt; Preferences &gt; Manage assets\nChallenge 1: use custom CSS to style HTML output\n\nThe given file is custom.css.\nSelect the HTML profile. On line 46, add custom.css between the brackets.\nYou can also add css: custom.css to the YAML on each file you want to export with custom.css."
+    "section": "Share phase: extending export capabilities",
+    "text": "Share phase: extending export capabilities\n\nChange how things look\nAdd new export possibilities thanks to Pandoc\n\nWe will use the Assets dialog: File &gt; Preferences &gt; Manage assets\nChallenge 1: use custom CSS to style HTML output\n\nThe given file is custom.css.\nSelect the HTML profile. On line 46, add custom.css between the brackets.\nYou can also add css: custom.css to the YAML on each file you want to export with custom.css."
   },
   {
-    "objectID": "workshop/markdown/markdown-revealjs.html#extending-export-capabilities-contd",
-    "href": "workshop/markdown/markdown-revealjs.html#extending-export-capabilities-contd",
+    "objectID": "workshop/markdown/markdown-revealjs.html#share-phase-extending-export-capabilities-contd",
+    "href": "workshop/markdown/markdown-revealjs.html#share-phase-extending-export-capabilities-contd",
     "title": "The power of plain text",
-    "section": "Extending export capabilities (cont’d)",
-    "text": "Extending export capabilities (cont’d)\nChallenge 2: enable export to PowerPoint presentations\n\nBy default, Zettlr offers no possibility to export to .pptx (PowerPoint). However, pandoc can do it.\nCreate a new profile with reader: markdown and writer: pptx\n\nChallenge 3: modify how things look in docx, pptx, odt\n\nYou can specify a template by adding reference_doc: template.pptx to the corresponding profile.\nWe provide custom.docx, custom.odt and custom.pptx\nModify the slide masters in the provided template\nFor docx/odt, modify the styles."
+    "section": "Share phase: extending export capabilities (cont’d)",
+    "text": "Share phase: extending export capabilities (cont’d)\nChallenge 2: enable export to PowerPoint presentations\n\nBy default, Zettlr offers no possibility to export to .pptx (PowerPoint). However, pandoc can do it.\nCreate a new profile with reader: markdown and writer: pptx\n\nChallenge 3: modify how things look in docx, pptx, odt\n\nYou can specify a template by adding reference_doc: template.pptx to the corresponding profile.\nWe provide custom.docx, custom.odt and custom.pptx\nModify the slide masters in the provided template\nFor docx/odt, modify the styles."
   },
   {
     "objectID": "M1/index.html",
