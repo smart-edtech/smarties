@@ -1,51 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://github.com/smart-edtech/smarties/workshop/intro/index.html</loc>
+    <lastmod>2023-12-19T10:38:55.206Z</lastmod>
+  </url>
+  <url>
     <loc>https://github.com/smart-edtech/smarties/workshop/markdown/20231216180452.html</loc>
-    <lastmod>2023-12-19T10:37:42.665Z</lastmod>
+    <lastmod>2023-12-19T10:38:54.654Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/smart-edtech/smarties/workshop/markdown/about_tags.html</loc>
-    <lastmod>2023-12-19T10:37:40.349Z</lastmod>
+    <lastmod>2023-12-19T10:38:52.322Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/smart-edtech/smarties/M2/alanc/index.html</loc>
-    <lastmod>2023-12-19T10:37:39.897Z</lastmod>
+    <lastmod>2023-12-19T10:38:51.870Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/smart-edtech/smarties/index.html</loc>
-    <lastmod>2023-12-19T10:37:39.449Z</lastmod>
+    <lastmod>2023-12-19T10:38:51.414Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/smart-edtech/smarties/usage/index.html</loc>
-    <lastmod>2023-12-19T10:37:36.849Z</lastmod>
+    <lastmod>2023-12-19T10:38:48.790Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/smart-edtech/smarties/usage/markdown-revealjs.html</loc>
-    <lastmod>2023-12-19T10:37:38.913Z</lastmod>
+    <lastmod>2023-12-19T10:38:50.882Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/smart-edtech/smarties/usage/markdown.html</loc>
-    <lastmod>2023-12-19T10:37:38.937Z</lastmod>
+    <lastmod>2023-12-19T10:38:50.902Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/smart-edtech/smarties/M2/index.html</loc>
-    <lastmod>2023-12-19T10:37:39.673Z</lastmod>
+    <lastmod>2023-12-19T10:38:51.646Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/smart-edtech/smarties/M1/index.html</loc>
-    <lastmod>2023-12-19T10:37:40.121Z</lastmod>
+    <lastmod>2023-12-19T10:38:52.094Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/smart-edtech/smarties/workshop/markdown/markdown-revealjs.html</loc>
-    <lastmod>2023-12-19T10:37:42.393Z</lastmod>
+    <lastmod>2023-12-19T10:38:54.370Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/smart-edtech/smarties/workshop/markdown/index.html</loc>
-    <lastmod>2023-12-19T10:37:42.421Z</lastmod>
+    <lastmod>2023-12-19T10:38:54.402Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/smart-edtech/smarties/workshop/index.html</loc>
-    <lastmod>2023-12-19T10:37:42.965Z</lastmod>
+    <lastmod>2023-12-19T10:38:54.966Z</lastmod>
   </url>
 </urlset>

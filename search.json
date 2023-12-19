@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "workshop/intro/index.html",
+    "href": "workshop/intro/index.html",
+    "title": "Introduction to Free and Open Source Software (FOSS)",
+    "section": "",
+    "text": "The slides are available"
+  },
+  {
     "objectID": "workshop/markdown/20231216180452.html",
     "href": "workshop/markdown/20231216180452.html",
     "title": "Another file",
@@ -368,6 +375,6 @@
     "href": "workshop/index.html",
     "title": "Workshops",
     "section": "",
-    "text": "Introduction to Free and Open Source Software (FOSS)\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nThe power of plain text\n\n\na.k.a. a gentle introduction to personal knowledge management using Zettlr\n\n\n\n\n\n\n\n\n\nAlan CASTELLINO, Benjamin ABEL\n\n\n\n\n\n\nNo matching items"
+    "text": "Introduction to Free and Open Source Software (FOSS)\n\n\n\n\n\n\n\n\n\n\n\n\nAlan CASTELLINO\n\n\n\n\n\n\n  \n\n\n\n\nThe power of plain text\n\n\na.k.a. a gentle introduction to personal knowledge management using Zettlr\n\n\n\n\n\n\n\n\n\nAlan CASTELLINO, Benjamin ABEL\n\n\n\n\n\n\nNo matching items"
   }
 ]
