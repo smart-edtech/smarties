@@ -1,1 +1,1 @@
-Sitemap: https://github.com/smart-edtech/smarties/sitemap.xml
+Sitemap: https://smart-edtech.github.io/smarties/sitemap.xml

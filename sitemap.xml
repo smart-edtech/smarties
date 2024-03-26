@@ -1,55 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://github.com/smart-edtech/smarties/workshop/index.html</loc>
-    <lastmod>2023-12-21T09:29:32.205Z</lastmod>
+    <loc>https://smart-edtech.github.io/smarties/M1/index.html</loc>
+    <lastmod>2024-03-26T13:58:23.028Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/smart-edtech/smarties/workshop/markdown/20231216180452.html</loc>
-    <lastmod>2023-12-21T09:29:31.653Z</lastmod>
+    <loc>https://smart-edtech.github.io/smarties/M2/index.html</loc>
+    <lastmod>2024-03-26T13:58:23.028Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/smart-edtech/smarties/workshop/markdown/about_tags.html</loc>
-    <lastmod>2023-12-21T09:29:29.153Z</lastmod>
+    <loc>https://smart-edtech.github.io/smarties/usage/markdown.html</loc>
+    <lastmod>2024-03-26T13:58:23.032Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/smart-edtech/smarties/M2/alanc/index.html</loc>
-    <lastmod>2023-12-21T09:29:28.681Z</lastmod>
+    <loc>https://smart-edtech.github.io/smarties/usage/markdown-revealjs.html</loc>
+    <lastmod>2024-03-26T13:58:23.032Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/smart-edtech/smarties/index.html</loc>
-    <lastmod>2023-12-21T09:29:28.201Z</lastmod>
+    <loc>https://smart-edtech.github.io/smarties/workshop/index.html</loc>
+    <lastmod>2024-03-26T13:58:23.032Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/smart-edtech/smarties/usage/index.html</loc>
-    <lastmod>2023-12-21T09:29:25.549Z</lastmod>
+    <loc>https://smart-edtech.github.io/smarties/workshop/markdown/20231216180452.html</loc>
+    <lastmod>2024-03-26T13:58:23.032Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/smart-edtech/smarties/usage/markdown-revealjs.html</loc>
-    <lastmod>2023-12-21T09:29:27.661Z</lastmod>
+    <loc>https://smart-edtech.github.io/smarties/workshop/markdown/about_tags.html</loc>
+    <lastmod>2024-03-26T13:58:23.032Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/smart-edtech/smarties/usage/markdown.html</loc>
-    <lastmod>2023-12-21T09:29:27.685Z</lastmod>
+    <loc>https://smart-edtech.github.io/smarties/workshop/markdown/markdown-revealjs.html</loc>
+    <lastmod>2024-03-26T13:58:23.032Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/smart-edtech/smarties/M2/index.html</loc>
-    <lastmod>2023-12-21T09:29:28.433Z</lastmod>
+    <loc>https://smart-edtech.github.io/smarties/workshop/markdown/index.html</loc>
+    <lastmod>2024-03-26T13:58:23.032Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/smart-edtech/smarties/M1/index.html</loc>
-    <lastmod>2023-12-21T09:29:28.917Z</lastmod>
+    <loc>https://smart-edtech.github.io/smarties/usage/index.html</loc>
+    <lastmod>2024-03-26T13:58:23.032Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/smart-edtech/smarties/workshop/markdown/markdown-revealjs.html</loc>
-    <lastmod>2023-12-21T09:29:31.373Z</lastmod>
+    <loc>https://smart-edtech.github.io/smarties/M2/alanc/index.html</loc>
+    <lastmod>2024-03-26T13:58:23.028Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/smart-edtech/smarties/workshop/markdown/index.html</loc>
-    <lastmod>2023-12-21T09:29:31.401Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/smart-edtech/smarties/workshop/foss-intro/index.html</loc>
-    <lastmod>2023-12-21T09:29:31.897Z</lastmod>
+    <loc>https://smart-edtech.github.io/smarties/index.html</loc>
+    <lastmod>2024-03-26T13:58:23.028Z</lastmod>
   </url>
 </urlset>
