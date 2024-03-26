@@ -26,7 +26,7 @@ format:
 - Figure out why you should get familiar with knowledge management and content publishing
 - Figure out the advantages of plain text and multi-format exporting
 - Get familiar with `Markdown` and basic exporting using a simple tool
-- Start to elaborate personal PKM practices
+- Start to elaborate personal KM practices
 - Experience how a tool like `Zettlr` can help with the PKM process
 
 ## Overview
