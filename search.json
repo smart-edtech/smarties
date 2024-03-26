@@ -72,7 +72,7 @@
     "href": "workshop/markdown/markdown-revealjs.html#objectives",
     "title": "The power of plain text",
     "section": "Objectives",
-    "text": "Objectives\n\nFigure out why you should get familiar with knowledge management and content publishing\nFigure out the advantages of plain text and multi-format exporting\nGet familiar with Markdown and basic exporting using a simple tool\nStart to elaborate personal PKM practices\nExperience how a tool like Zettlr can help with the PKM process"
+    "text": "Objectives\n\nFigure out why you should get familiar with knowledge management and content publishing\nFigure out the advantages of plain text and multi-format exporting\nGet familiar with Markdown and basic exporting using a simple tool\nStart to elaborate personal KM practices\nExperience how a tool like Zettlr can help with the PKM process"
   },
   {
     "objectID": "workshop/markdown/markdown-revealjs.html#overview",
@@ -128,7 +128,7 @@
     "href": "workshop/markdown/markdown-revealjs.html#markdown-syntax",
     "title": "The power of plain text",
     "section": "Markdown syntax",
-    "text": "Markdown syntax\n\n# Section heading\n## Subsection heading…\nThis is _emphasized_ and this is **strong**\nThis is a - List item\nThis is a 1. Numberred item\nThis is a [link](https://zettlr.com)\nThis is an ![cute_cat.png](image)\nYAML: metadata and options"
+    "text": "Markdown syntax\n\n# Section heading\n## Subsection heading…\nThis is _emphasized_ and this is **strong**\nThis is a - List item\nThis is a 1. Numberred item\nThis is a [link](https://zettlr.com)\nThis is an ![image](cat.png)\nYAML: metadata and options"
   },
   {
     "objectID": "workshop/markdown/markdown-revealjs.html#basics-and-exporting",
@@ -233,7 +233,7 @@
     "href": "workshop/markdown/index.html",
     "title": "The power of plain text",
     "section": "",
-    "text": "Figure out why you should get familiar with knowledge management and content publishing\nFigure out the advantages of plain text and multi-format exporting\nGet familiar with Markdown and basic exporting using a simple tool\nStart to elaborate personal PKM practices\nExperience how a tool like Zettlr can help with the PKM process\n\n\n\n\nHave a look at what you can get with a bit of practical knowledge of plain text workflows (quarto) and GitHub: https://smart-edtech.github.io/smarties/\n\nAutomatic build of the website\nMulti-format exporting avairable",
+    "text": "Figure out why you should get familiar with knowledge management and content publishing\nFigure out the advantages of plain text and multi-format exporting\nGet familiar with Markdown and basic exporting using a simple tool\nStart to elaborate personal KM practices\nExperience how a tool like Zettlr can help with the PKM process\n\n\n\n\nHave a look at what you can get with a bit of practical knowledge of plain text workflows (quarto) and GitHub: https://smart-edtech.github.io/smarties/\n\nAutomatic build of the website\nMulti-format exporting avairable",
     "crumbs": [
       "Home",
       "Workshops",
@@ -245,7 +245,7 @@
     "href": "workshop/markdown/index.html#objectives",
     "title": "The power of plain text",
     "section": "",
-    "text": "Figure out why you should get familiar with knowledge management and content publishing\nFigure out the advantages of plain text and multi-format exporting\nGet familiar with Markdown and basic exporting using a simple tool\nStart to elaborate personal PKM practices\nExperience how a tool like Zettlr can help with the PKM process",
+    "text": "Figure out why you should get familiar with knowledge management and content publishing\nFigure out the advantages of plain text and multi-format exporting\nGet familiar with Markdown and basic exporting using a simple tool\nStart to elaborate personal KM practices\nExperience how a tool like Zettlr can help with the PKM process",
     "crumbs": [
       "Home",
       "Workshops",
@@ -341,7 +341,7 @@
     "href": "workshop/markdown/index.html#markdown-syntax",
     "title": "The power of plain text",
     "section": "Markdown syntax",
-    "text": "Markdown syntax\n\n# Section heading\n## Subsection heading…\nThis is _emphasized_ and this is **strong**\nThis is a - List item\nThis is a 1. Numberred item\nThis is a [link](https://zettlr.com)\nThis is an ![cute_cat.png](image)\nYAML: metadata and options",
+    "text": "Markdown syntax\n\n# Section heading\n## Subsection heading…\nThis is _emphasized_ and this is **strong**\nThis is a - List item\nThis is a 1. Numberred item\nThis is a [link](https://zettlr.com)\nThis is an ![image](cat.png)\nYAML: metadata and options",
     "crumbs": [
       "Home",
       "Workshops",
