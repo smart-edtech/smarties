@@ -90,7 +90,7 @@ PKM is the field that precisely studies that issue: how, as individuals, can we 
 - This is a `- List item`
 - This is a `1. Numberred item`
 - This is a `[link](https://zettlr.com)`
-- This is an `![cute_cat.png](image)`
+- This is an `![image](cat.png)`
 - `YAML`: metadata and options
 
 ## Basics and Exporting
