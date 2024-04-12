@@ -4,7 +4,7 @@
     "href": "workshop/gbl-godot/index.html",
     "title": "Game based learning using Godot",
     "section": "",
-    "text": "Learn to create game based learning activities with godot an open-source game engine",
+    "text": "Learn to create game based learning activities with Godot an open-source game engine",
     "crumbs": [
       "Home",
       "Workshops",
@@ -28,7 +28,7 @@
     "href": "workshop/gbl-godot/index.html#nd-tutorial-level-design-and-learning-approach",
     "title": "Game based learning using Godot",
     "section": "2nd tutorial: Level design and learning approach",
-    "text": "2nd tutorial: Level design and learning approach\nLink: https://www.youtube.com/watch?v=zL__a0Ei6Vs&t=0s\n\n\n\n\n\n\nHands on\n\n\n\nAdd multiple levels and replace the point gain approach by a question based approach.\nWhen the player collides a collectable, a question is prompted, and then he gets the point only if he answers correctly.",
+    "text": "2nd tutorial: Level design and learning approach\nLink: https://www.youtube.com/watch?v=zL__a0Ei6Vs&t=0s\n\n\n\n\n\n\nHands on\n\n\n\nFollow the tutorial to enhance levels design on your game and adding collectables.\n\n\n\n\n\n\n\n\n\nAdd learning mechanics\n\n\n\n\n\nAdd multiple levels and replace the point gain approach by a question based approach.\nWhen the player collides a collectable, a question is prompted, and then he gets the point only if he answers correctly.",
     "crumbs": [
       "Home",
       "Workshops",
