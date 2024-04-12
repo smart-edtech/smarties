@@ -1,0 +1,76 @@
+---
+title: Game based learning using `Godot`
+---
+
+
+> Learn to create game based learning activities with godot an open-source game engine
+
+::: {.callout-note}
+This article is a summary of a workshop presented by Thomas Frosig on april 11 2024.
+
+:::
+
+# Theory: GBL vs gamification
+
+GBL is different from gamification. Gamification is related to rewards(dopamine). It relates to **Behavorism** example: cahoot. GBL is related to self-determination theory: **Constructivism**
+
+To build an GBL experience, you need:
+
+1. Autonomy: choice, free movement,
+2. Competent: player must feel competent(reward, ): intrinsic motivation drive
+3. Sense of belonging: boost intrinsic motivation example: at the entrance hi cool to be here, create a connection
+
+
+::: {.callout-tip}
+
+The player must search the knowledge instead of just test always his knowledge.
+
+:::
+
+# Practical 
+
+> Best approach: get a game you know and add learning to it plutôt que le contraire.
+
+This is why we are going to work on a 2D platform game like Mario that we are going to modify to implement the learning experience.
+
+## 1st tutorial Platformer: Gameplay
+
+Elements of the game:
+
+- Characters
+- Platform
+- Collectables
+
+Links:
+
+- Godot download: <https://godotengine.org/download/>
+- Tutorial link: <https://www.youtube.com/watch?v=5V9f3MT86M8>
+- Assets: <https://pixelfrog-assets.itch.io/pixel-adventure-1>
+
+::: {.callout-tip title="Hands on"}
+
+Follow the tutorial to get a 2D game up and running.
+
+:::
+
+{{< video https://www.youtube.com/embed/5V9f3MT86M8 >}}
+
+## 2nd tutorial: Level design and learning approach
+
+Link: <https://www.youtube.com/watch?v=zL__a0Ei6Vs&t=0s>
+
+
+::: {.callout-tip title="Hands on"}
+
+Add multiple levels and _replace the point gain approach by a question based
+approach_.
+
+When the player collides a collectable, a question is prompted, and
+then he gets the point only if he answers correctly.
+
+:::
+
+
+
+{{< video https://www.youtube.com/embed/zL__a0Ei6Vs >}}
+
