@@ -2,6 +2,7 @@
   {
     "listing": "/workshop/index.html",
     "items": [
+      "/workshop/gbl-godot/index.html",
       "/workshop/markdown/index.html"
     ]
   }
